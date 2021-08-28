@@ -17,11 +17,18 @@ input{
     
     width: 352px;
     height:32px;
+    border: 2px purple solid;
+    border-radius: 4px;
+    padding-left: 15px;
     
 }
 button{
     margin-top: 12px;
     padding: 10px;
+    background-color: rgb(233, 15, 233);
+    color: white;
+    border-radius: 3px;
+    font-size: 1.2rem;
 }
 
 p{
