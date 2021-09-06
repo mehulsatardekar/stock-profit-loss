@@ -6,6 +6,14 @@ main{
     margin: 12px;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px gray solid;
+    padding: 22px;
+    border-top: 6px blue solid;
+}
+
 label{
     font-size: 2rem;
 
@@ -15,7 +23,6 @@ label,input{
 }
 input{
     
-    width: 352px;
     height:32px;
     border: 2px purple solid;
     border-radius: 4px;
@@ -38,11 +45,48 @@ p{
 
 .success{
     padding: 12px;
-    background-color: rgb(73, 189, 98);
+    color: aliceblue;
+    background-color: rgb(60, 61, 60);
 }
 
-.danger{
+.sadimg{
+    height: 170px;
+    background-repeat: no-repeat;
+}
+
+
+
+footer{
+    background-color: blueviolet;
+    text-align: center;
+}
+footer > h4{
+  
+    font-size: 2rem;
     color: white;
-        padding: 12px;
-        background-color: rgb(228, 60, 30);
+    padding-top: 22px;
+} 
+footer > .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 21px;
+}
+footer > .icons> ul > {
+    list-style: none;
+}
+
+footer > .icons >ul > li{
+    list-style: none;
+}
+footer > .icons> ul > li> a>{
+    list-style: none;
+    text-decoration: none;
+
+}
+footer > .icons> ul > li> a> img{
+    padding: 12px 12px 12px 12px;
+
+   height: 40px;
 }
